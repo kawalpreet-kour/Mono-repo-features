@@ -109,7 +109,7 @@ A **monorepo** (monolithic repository) is a strategy where multiple projects, ap
 | **Code Reuse**        | Projects/folders reuse the shared code to maintain consistency and avoid duplication. |
 
 
-<img width="800" height="450" alt="2123" src="https://github.com/user-attachments/assets/fae6343a-a6ee-496c-9ca9-1c66c1d85f8f" />
+<img width="800" height="600" alt="2123" src="https://github.com/user-attachments/assets/fae6343a-a6ee-496c-9ca9-1c66c1d85f8f" />
 
 
 ---
