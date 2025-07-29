@@ -7,7 +7,7 @@
 ## Author Information
 | Last Updated On | Version | Author           | Level           | Reviewer               |
 |-----------------|---------|------------------|-----------------|------------------------|
-| 28-07-2025      | V1.0    | Kawalpreet Kour  | Internal Review | Pritam                 |
+| 29-07-2025      | V1.0    | Kawalpreet Kour  | Internal Review | Pritam                 |
 |      |         | Kawalpreet Kour  | L0              | Shreya/Sharvani        |
 |                 |         | Kawalpreet Kour  | L1              | Abhishek V             |
 |                 |         | Kawalpreet Kour  | L2              | Abhishek Dubey/Rishabh sharma |
@@ -99,16 +99,17 @@ A **monorepo** (monolithic repository) is a strategy where multiple projects, ap
 ## Monorepo Workflow
 
 
-| Step                | Description                                                         |
-| ------------------- | ------------------------------------------------------------------- |
-| 1. Plan Structure   | Organize code into apps/, libs/, packages/                          |
-| 2. Select Tools     | Pick tooling: Nx, Lerna, Rush, Yarn Workspaces                      |
-| 3. CI/CD Setup      | Implement pipelines with affected-only builds and tests             |
-| 4. Code Sharing     | Use shared modules and enforce dependency boundaries                |
-| 5. Targeted Testing | Run tests only on changed or affected modules                       |
-| 6. Deployment       | Deploy per-project or batch-deploy depending on system architecture |
+
+| Step                  | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| **Developers Work**   | Multiple developers contribute code to the same monorepo repository.        |
+| **Central Repository**| All projects (frontend, backend, etc.) are stored in one unified repository.|
+| **Structured Folders**| The codebase is divided into folders based on projects or services.         |
+| **Shared Library**    | A centralized library contains reusable code used by multiple projects.     |
+| **Code Reuse**        | Projects/folders reuse the shared code to maintain consistency and avoid duplication. |
 
 
+<img width="800" height="450" alt="2123" src="https://github.com/user-attachments/assets/fae6343a-a6ee-496c-9ca9-1c66c1d85f8f" />
 
 
 ---
@@ -161,13 +162,9 @@ Monorepos streamline code collaboration, versioning, and automation when impleme
 
 ## References
 
-| Link                                                                                                       | Description                         |
-| ---------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| [Nx Documentation](https://nx.dev)                                                                         | Official Nx monorepo tooling docs   |
-| [Lerna](https://lerna.js.org/)                                                                             | JavaScript monorepo management tool |
-| [Google Monorepo Blog](https://opensource.googleblog.com/2017/05/why-google-stores-everything-in-one.html) | Google's monorepo practices         |
-| [Bazel](https://bazel.build)                                                                               | Build tool for monorepos            |
-| [SonarSource Guide](https://www.sonarsource.com)                                                           | Quality and analysis tooling        |
 
----
+| Link                                                                                                                                          | Description                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [Monorepo: A Hands-on Guide for Managing Repositories and Microservices – Aviator](https://www.aviator.co/blog/monorepo-a-hands-on-guide-for-managing-repositories-and-microservices/#) | Practical insights and setup guide for monorepos.       |
+| [SonarSource: Learn About Monorepos](https://www.sonarsource.com/learn/monorepo/#:~:text=Monorepos%20makes%20sharing%20and%20reusing,savings%20and%20simplifies%20code%20maintenance.) | Explains benefits of monorepos in quality and reusability. 
 
